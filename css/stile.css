@@ -1,0 +1,8 @@
+/*Cor da barra de navegação*/
+.nav-top{
+    background-color: rgb(47,47,144) !important;
+}
+/*Cor dos links da barra de navegação*/
+.nav-link{
+    color: white !important;
+}
