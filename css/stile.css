@@ -6,3 +6,33 @@
 .nav-link{
     color: white !important;
 }
+footer{
+    background-color: rgb(47, 47, 114) !important;
+    color: white !important;
+    text-align: center !important;
+}
+.car-img{
+    max-height: 40em !important;
+}
+.carousel-caption{
+    background-color: rgb(82,77,77,0.739) !important;
+}
+.divisao{
+    background-color: rgb(47,47,114) !important;
+    text-align: center !important;
+    color: white !important;
+    padding: 2em !important;
+}
+.sec-pacotes{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 1%;
+}
+.card{
+    padding: 1% !important;
+    margin: 0% 1% 1% !important;
+}
+.card p{
+    text-align: justify;
+}

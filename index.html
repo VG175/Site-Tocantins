@@ -55,14 +55,15 @@
                 <p>Conheça a capital do Estado</p>
               </div>
           </div>
-          <!--imagem dois-->
-          <div  class="carousel-item">
-            <img src="img/lagoa-to.jpg" alt="lagoa-to" class="d-block w-100 car-img">
-            <div>
-              <h3>Lagoa do Tocantins</h3>
-              <p>Cidade Turistica do tocantins</p>
+          <!--cidade 2-->
+          <div class="carousel-item active">
+            <img src="img/lagoa-to.jpg" alt="lagoa do tocantins" class="d-block w-100 car-img">
+            <div class="carousel-caption">
+              <h3>Lagoa do tocantins</h3>
+              <p>O começo do jalapao é aqui...</p>
             </div>
-          </div>
+        </div>
+          <!--cidade 3-->
           <div class="carousel-item">
             <img src="img/natividade.jpg" alt="Natividade" class="d-block w-100 car-img">
             <div class="carousel-caption">
@@ -123,7 +124,53 @@
         <h2>Fale Conosco</h2>
       </div>
       <!--Contatos-->
-      <section>
+      <!--Seção 1--> <!--Caixa de dialago-->
+      <section class="row sec-contato" id="contatos">
+        <div class="col-sm-6">
+          <form action="">
+            <div class="mb-3 mt-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Informe seu nome" name="nome">
+            </div>
+      <!--seção 2-->
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail:</label>
+              <input type="email" class="form-control" id="email" placeholder="Informe seu E-mail..." name="email">
+            </div>
+      <!--Seção 3-->
+            <div class="mb-3">
+              <label for="comment">Messagem:</label>
+              <textarea class="form-control" rows="5" name="text" id="comment"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Eviar</button>
+          </form>
+        </div>
+        <!--Fim da parte de entrada de dados, começo de outra seção-->
+        <div class="col-sm-6">
+          <div class="row link">
+            <div class="col-sm-6">
+              <h6>WhatsApp</h6>
+              <a href="https://wa.me/91985009907?text=Ol%C3%A1%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es" target="_blank">
+                <img src="img/whatsapp.png" width="100px">
+              </a>
+              
+            </div>
+            <!--Instagram-->
+            <div class="col-sm-6">
+              <h6>Istagram</h6>
+              <a href="https://www.instagram.com/vtbr250?igsh=MTFjcXNsZGI0eXJwOQ==" target="_blank">
+                <img src="img/Instagram-Icon.png" width="100px">
+              </a>
+            </div>
+            <!--Mapa da região-->
+            <div class="mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26417.353548938143!2d-48.39697081621013!3d-10.183652082493657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sbr!4v1739835659090!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+          </div>
+
+        </div>
         
       </section>
 
